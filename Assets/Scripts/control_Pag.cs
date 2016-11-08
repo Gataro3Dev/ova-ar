@@ -2,7 +2,7 @@
 using System.Collections;
 using Vuforia;
 
-public class control_Pag2 : MonoBehaviour, ITrackableEventHandler {
+public class control_Pag : MonoBehaviour, ITrackableEventHandler {
 	public GameObject Objeto;
 	public GameObject marcador;
 	private TrackableBehaviour control;
