@@ -6,6 +6,7 @@ public class movimiento_conflicto : MonoBehaviour {
 	bool ban;
 
 
+
 	void Start(){
 		ban = false;
 	}
@@ -17,13 +18,14 @@ public class movimiento_conflicto : MonoBehaviour {
 	}
 
 	void mover(){
-		transform.Translate (0f, -25f * Time.deltaTime, 0f);
+		transform.Translate (0f, -40f * Time.deltaTime, 0f);
 	}
 
 	void OnTriggerEnter(Collider obj){
 		GameObject otro = GameObject.Find ("conflicto");
 		if (obj.gameObject.tag == "freno") {
 			ban = true;
+
 		}
 			
 	}
