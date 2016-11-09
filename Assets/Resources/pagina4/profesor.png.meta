@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: d64606383068b2a42a57bf60aeb62069
 timeCreated: 1478655043
+=======
+guid: 30ca5c2e18daf3b46a9d1d6a845782a9
+timeCreated: 1478616248
+>>>>>>> deimart
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}

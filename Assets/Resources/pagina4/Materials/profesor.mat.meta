@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: fa86d50d0598208419e413431c47a807
 timeCreated: 1478655988
+=======
+guid: 0349e7e94d9a36141a2c8c6337563817
+timeCreated: 1478616960
+>>>>>>> deimart
 licenseType: Free
 NativeFormatImporter:
   userData: 

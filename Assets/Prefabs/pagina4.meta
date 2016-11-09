@@ -1,7 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 083e495f63de4634c82afa665922af56
 folderAsset: yes
 timeCreated: 1478631364
+=======
+guid: cd56c610fb29d4649ad5d9858a4e5439
+folderAsset: yes
+timeCreated: 1478599752
+>>>>>>> deimart
 licenseType: Free
 DefaultImporter:
   userData: 
