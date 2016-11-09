@@ -27,7 +27,7 @@ public class control_Pag : MonoBehaviour, ITrackableEventHandler {
 			newObjeto.transform.SetParent (marcador.transform);
 			newObjeto.transform.localPosition = new Vector3 (0, 0, 0);
 		} else {
-			Destroy (GameObject.Find("Contenido_Pag_2(Clone)"));
+			Destroy (GameObject.Find(Objeto.name+"(Clone)"));
 		}
 	}
 }

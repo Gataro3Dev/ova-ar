@@ -5,8 +5,11 @@ public class moverObjeto : MonoBehaviour {
 	bool control;
 	public string nombre;
 	public GameObject texto;
+	public AudioClip tono;
+	AudioSource sonido;
 	// Use this for initialization
 	void Start () {
+		sonido = GetComponent<AudioSource> ();
 		control = false;
 	}
 	
@@ -24,8 +27,8 @@ public class moverObjeto : MonoBehaviour {
 	void OnTriggerEnter(Collider obj){
 		GameObject otro = GameObject.Find (nombre);
 		if (obj.gameObject.name == "centro") {
-			GameObject nuevo = Instantiate (texto);
-			nuevo.transform.SetParent (GameObject.Find("textoref").transform);
+			sonido.clip = tono;
+			sonido.Play ();
 		}
 		if(obj.gameObject.name == "objectRef"){
 			control = true;
